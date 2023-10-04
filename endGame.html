@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>End Game</title>
+        <meta name="author" content="Kuang-Tse Hung" />
+        <link rel="stylesheet" href="endGame.css">
+    </head>
+    <body>
+        <div class="score">Score: <span id="scoreValue">0</span></div>
+        <div class="high-score">High Score: <span id="highScoreValue">0</span></div>
+        <div class="decorations">
+            <div style="display: inline-block; margin: 10px; width: 50px; height: 50px; background-color: #FF6384; border-radius: 50%;"></div>
+            <div style="display: inline-block; margin: 10px; width: 50px; height: 50px; background-color: #36A2EB; border-radius: 50%;"></div>
+            <div style="display: inline-block; margin: 10px; width: 50px; height: 50px; background-color: #FFCE56; border-radius: 50%;"></div>
+            <div class="ball" style="width: 40px; height: 40px; background-color: #8A2BE2; top: 400px; left: 400px;"></div>
+            <div class="ball" style="width: 60px; height: 60px; background-color: #00CED1; top: 500px; left: 500px;"></div>
+            <div class="ball" style="width: 80px; height: 80px; background-color: #FF4500; top: 600px; left: 600px;"></div>
+        </div>
+        <button class="restart-button" onclick="restartGame()">Restart Game</button>
+        <script src="endGame.js"></script>
+    </body>
+</html>
